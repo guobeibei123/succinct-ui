@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    .wrapper {
+        width: 34px;
+        height: 16px;
+        padding: 3px;
+        margin: 0 10px;
+        border-radius: 30px;
+        position: relative;
+        transition: all 0.5s linear;
+        display: inline-block;
+
+        .inner {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: white;
+            transition: all 0.3s linear;
+        }
+    }
+
+    .negativeWord,
+    .activeWord {
+        transition: all 0.3s linear;
+    }
+}

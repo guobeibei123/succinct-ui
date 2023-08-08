@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+}
+.container .title {
+  border-top: 1px solid #ebedf1;
+  height: 60px;
+  line-height: 60px;
+}
+.container .title:hover {
+  color: #409eff;
+}
+.container .content {
+  overflow: hidden;
+  height: 0;
+  transition: all 1s;
+}
+.container:nth-child(1) {
+  border-bottom: 1px solid #ebedf1;
+}

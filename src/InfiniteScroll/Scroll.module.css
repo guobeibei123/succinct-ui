@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}
+.container .content {
+  width: 100%;
+  background-color: #e8f3fe;
+  margin-bottom: 10px;
+}

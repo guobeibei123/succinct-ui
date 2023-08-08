@@ -1,0 +1,37 @@
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+.wrapper .tip {
+  position: absolute;
+  z-index: 100;
+  padding: 10px 20px;
+  white-space: nowrap;
+  transition: all 0.1s linear;
+}
+.wrapper .top {
+  bottom: 100%;
+  transform-origin: 50% 100%;
+}
+.wrapper .left {
+  right: 100%;
+  top: 50%;
+  transform-origin: 100% 50%;
+}
+.wrapper .bottom {
+  top: 100%;
+  transform-origin: 50% 0;
+}
+.wrapper .right {
+  left: 100%;
+  top: 50%;
+  transform-origin: 0 50%;
+}
+.wrapper .aniShow {
+  transform: scale(1);
+  opacity: 1;
+}
+.wrapper .aniHide {
+  transform: scale(0);
+  opacity: 0;
+}
