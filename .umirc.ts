@@ -41,7 +41,7 @@ export default defineConfig({
       children: [
         {
           title: '码云地址',
-          path: 'https://gitee.com/guobeibei666/component-library/tree/react-succint-ui/'
+          path: 'https://gitee.com/guobeibei666/component-library/tree/react-succinct-ui/'
         }, {
           title: 'Github地址',
           path: 'https://github.com/guobeibei123/succinct-ui'
